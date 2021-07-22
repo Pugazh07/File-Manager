@@ -1,0 +1,31 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 40vw;
+    top: 40vh;
+    box-sizing: border-box;
+    
+}
+
+.Modal header{
+    text-align: center;
+    background: rgb(9, 141, 26);
+}
+
+.Modal section{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Modal footer{
+    padding: 0 20px 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

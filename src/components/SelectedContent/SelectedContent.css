@@ -1,0 +1,24 @@
+.SelectedContent div{
+    width: 100%;
+    text-align: left;
+    overflow-x: hidden;
+    /* border: 1px solid black; */
+}
+.SelectedItem{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SelectedContentHeader{
+    margin-bottom: 20px;
+}
+
+.SelectedItemContent{
+    margin: 5px 0;
+    /* cursor: pointer; */
+}
+
+/* .SelectedItemContent:hover, .SelectedItemContent.active{
+    background: skyblue;
+
+} */

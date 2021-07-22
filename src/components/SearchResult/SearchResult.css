@@ -1,0 +1,7 @@
+.SearchResult{
+    text-align: left;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    padding: 4px;
+}

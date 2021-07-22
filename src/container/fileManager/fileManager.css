@@ -1,0 +1,19 @@
+.Container{
+    display: flex;
+}
+.TreeView{
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.Content{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+}

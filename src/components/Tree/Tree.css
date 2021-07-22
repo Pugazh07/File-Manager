@@ -1,0 +1,54 @@
+.TreeContainer {
+    list-style: none;
+    padding: 0;
+}
+
+.TreeContainer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.TreeNode {
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.NodeToggler{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.TreeNode i{
+    margin-right: 10px;
+}
+
+
+.TreeNode span:hover, .TreeNode span.active{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+}
+
+.TreeNode input{
+    width: fit-content;
+    height: 1.4em;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.TreeNode .Input{
+    /* width: fit-content; */
+    position: relative;
+    left: 1rem;
+    top: 0.25rem;
+    /* height: 1.4em;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; */
+}
+
+.NodeToggler.active {
+    transform: rotate(45deg);
+}
