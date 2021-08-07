@@ -98,6 +98,9 @@ const HandleFolderFile = (props) => {
                         conditional={true}
                         modalContent={<input type='file' name='file' onChange={(e)=>onChangeHandler(e)}/>}
                         closeModal={closeModalHandler}/> : null}
+            {/* {chooseFile.enable ? <dialog open>
+                <p>dialog</p>
+            </dialog> : null} */}
         </div>
     )   
 }

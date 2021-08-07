@@ -5,7 +5,7 @@ import Backdrop from '../Backdrop/Backdrop';
 import styles from './Modal.module.css';
 
  const modal = (props) => {
-     console.log("[Modal.js] props", props)
+     console.log("[Modal.js] props", styles)
      let content=<section>Are you sure to remove "{props.pathToDelete}"</section>
      let footer = (<footer>
         <button className={styles.Cancel} onClick={(e) => props.closeModal(e, false)}>

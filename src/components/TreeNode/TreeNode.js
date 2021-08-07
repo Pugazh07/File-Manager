@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { connect } from 'react-redux'
+import { connect, useSelector, useDispatch } from 'react-redux'
 
 import * as actionTypes from '../../store/action'
 import Tree from '../Tree/Tree';
 import Input from '../UI/Input/Input';
 
-const TreeNode = ({node, onSelectPath, selectedPath, addItem, onSaveItem, onCancelItem}) =>{
+const TreeNode = ({node, onSelectPath, selectedPath}) =>{
     // if(addItem.target === node.path) console.log("[Tree.js addItem]",addItem)
     const [childVisible, setChildVisiblity]=useState(false);    
     // const [inputElementConfig, setInputElementConfig]=useState({
     //   value: null,
     //   istouched: false
     // });
-    
+    const addItem=useSelector((state)=> state.addItem)
+    const dispatch=useDispatch()
+    const onSaveItem=(itemName)=> dispatch({type: actionTypes.SAVEITEM, value: {name: itemName }})
+    const onCancelItem=()=>dispatch({type: actionTypes.CANCELITEM})
     const hasChild = node.children ? true : false;
     return (
         <li className="TreeNode" >
@@ -71,7 +74,7 @@ const TreeNode = ({node, onSelectPath, selectedPath, addItem, onSaveItem, onCanc
 
     }
 
-const mapStateToProps = state => {
+/* const mapStateToProps = state => {
   return {
     addItem: state.addItem,
   }
@@ -81,5 +84,6 @@ const mapDispatchToProps = dispatch =>{
     onSaveItem: (itemName)=>dispatch({type: actionTypes.SAVEITEM, value: {name: itemName }}),
     onCancelItem: ()=>dispatch({type: actionTypes.CANCELITEM})
   }
-}
-export default connect(mapStateToProps,mapDispatchToProps)(TreeNode);
+} */
+// export default connect(mapStateToProps,mapDispatchToProps)(TreeNode);
+export default TreeNode;
