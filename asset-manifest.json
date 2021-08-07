@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Pugazh07/File-Manager/static/css/main.6a73126f.chunk.css",
-    "main.js": "/Pugazh07/File-Manager/static/js/main.6da8f45c.chunk.js",
-    "main.js.map": "/Pugazh07/File-Manager/static/js/main.6da8f45c.chunk.js.map",
-    "runtime-main.js": "/Pugazh07/File-Manager/static/js/runtime-main.2e9f249e.js",
-    "runtime-main.js.map": "/Pugazh07/File-Manager/static/js/runtime-main.2e9f249e.js.map",
-    "static/js/2.d6bb8a82.chunk.js": "/Pugazh07/File-Manager/static/js/2.d6bb8a82.chunk.js",
-    "static/js/2.d6bb8a82.chunk.js.map": "/Pugazh07/File-Manager/static/js/2.d6bb8a82.chunk.js.map",
-    "static/js/3.8382620f.chunk.js": "/Pugazh07/File-Manager/static/js/3.8382620f.chunk.js",
-    "static/js/3.8382620f.chunk.js.map": "/Pugazh07/File-Manager/static/js/3.8382620f.chunk.js.map",
-    "index.html": "/Pugazh07/File-Manager/index.html",
-    "static/css/main.6a73126f.chunk.css.map": "/Pugazh07/File-Manager/static/css/main.6a73126f.chunk.css.map",
-    "static/js/2.d6bb8a82.chunk.js.LICENSE.txt": "/Pugazh07/File-Manager/static/js/2.d6bb8a82.chunk.js.LICENSE.txt"
+    "main.css": "/File-Manager/static/css/main.6a73126f.chunk.css",
+    "main.js": "/File-Manager/static/js/main.6da8f45c.chunk.js",
+    "main.js.map": "/File-Manager/static/js/main.6da8f45c.chunk.js.map",
+    "runtime-main.js": "/File-Manager/static/js/runtime-main.4134958e.js",
+    "runtime-main.js.map": "/File-Manager/static/js/runtime-main.4134958e.js.map",
+    "static/js/2.d6bb8a82.chunk.js": "/File-Manager/static/js/2.d6bb8a82.chunk.js",
+    "static/js/2.d6bb8a82.chunk.js.map": "/File-Manager/static/js/2.d6bb8a82.chunk.js.map",
+    "static/js/3.8382620f.chunk.js": "/File-Manager/static/js/3.8382620f.chunk.js",
+    "static/js/3.8382620f.chunk.js.map": "/File-Manager/static/js/3.8382620f.chunk.js.map",
+    "index.html": "/File-Manager/index.html",
+    "static/css/main.6a73126f.chunk.css.map": "/File-Manager/static/css/main.6a73126f.chunk.css.map",
+    "static/js/2.d6bb8a82.chunk.js.LICENSE.txt": "/File-Manager/static/js/2.d6bb8a82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e9f249e.js",
+    "static/js/runtime-main.4134958e.js",
     "static/js/2.d6bb8a82.chunk.js",
     "static/css/main.6a73126f.chunk.css",
     "static/js/main.6da8f45c.chunk.js"
